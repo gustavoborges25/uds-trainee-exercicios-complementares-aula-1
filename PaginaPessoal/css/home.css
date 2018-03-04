@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
+div {
+  color: #fff;
+  position: relative;
+}
+
+.foto {
+  background-image: url( "../img/home-perfil.jpg" );
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 50%;
+  background-size: auto 100%;
+  animation: descerFotoPerfil 1.5s linear;
+  z-index: 1;
+}
+
+@keyframes descerFotoPerfil {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY( 0% );
+    opacity: 1;
+  }
+}
+
+.background {
+  background-color: #146188;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0%;
+  z-index: 0;
+}
+
+.menu-navegacao {
+  position: relative;
+  padding: 30px;
+  font-family: arial;
+  font-size: 20px;
+  margin-left: 10%;
+}
+
+.menu-navegacao a {
+  text-decoration: none;
+  margin: 20px;
+  color: #fff;
+}
+
+.nome {
+  color: #fff;
+  position: relative;
+  font-family: 'Monoton', cursive;
+  font-size: 20px;
+  margin-left: 30px;
+  animation: nomeanimado 2s linear;
+}
+
+@keyframes nomeanimado {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#meu-nome {
+  opacity: 0.4;
+  padding: 15px;
+  margin-bottom: 0px;
+}
+
+#nome {
+  margin-left: 40px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#sobrenome {
+  margin-left: 60px;
+  margin-top: 0px;
+}
+
+.resumo {
+  width: 40%;
+  margin-left: 5%;
+}
+
+.icones-sociais{
+    position: fixed;
+    bottom: 0;
+    left: 10%;
+}
+
+.icones-sociais li {
+    display: inline-block;
+}
+
+.icones-sociais a {
+    width: 64px;
+    height: 64px;
+    display: block;
+    text-indent: -99999px;
+    margin: 10px;
+    background-size: contain;
+    box-shadow: 0px 0px 15px #fff;
+    margin-bottom: 50px;
+}
+
+.facebook {
+    background-image: url("../img/facebook.png");
+}
+
+.github {
+    background-image: url("../img/github.png");
+}
+
+.linkedin {
+    background-image: url("../img/linkedin.png");
+}
