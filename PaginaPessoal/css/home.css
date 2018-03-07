@@ -29,30 +29,6 @@ div {
   }
 }
 
-.background {
-  background-color: #146188;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0%;
-  z-index: 0;
-}
-
-.menu-navegacao {
-  position: relative;
-  padding: 30px;
-  font-family: arial;
-  font-size: 20px;
-  margin-left: 10%;
-}
-
-.menu-navegacao a {
-  text-decoration: none;
-  margin: 20px;
-  color: #fff;
-}
-
 .nome {
   color: #fff;
   position: relative;
