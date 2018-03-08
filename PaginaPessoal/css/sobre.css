@@ -1,0 +1,37 @@
+.fotoPrincipal {
+
+  align-items: center;
+  display: flex;
+  top: 50px;
+  justify-content: center;
+  min-height: 75vh;
+  height: 75vh;
+  position: relative;
+  background: #000;
+  background-image: url(../img/sobre-principal.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #FFF;
+}
+
+.fotoPrincipal p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#galeriaFotos {
+  .coin-slider { overflow: hidden; zoom: 1; position: relative; width:320px; margin: 100px auto; }
+.coin-slider a{ text-decoration: none; outline: none; border: none; }
+
+.cs-buttons { font-size: 0px; padding: 10px; float: left; }
+.cs-buttons a { margin-left: 5px; height: 10px; width: 10px; float: left; border: 1px solid #B8C4CF; color: #B8C4CF; text-indent: -1000px; }
+.cs-active { background-color: #B8C4CF; color: #FFFFFF; }
+
+.cs-title { width: 305px; padding: 10px; background-color: #000000; color: #FFFFFF; }
+
+.cs-prev,
+.cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; }
+}

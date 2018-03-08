@@ -11,14 +11,17 @@
 
 .menu-navegacao {
   position: relative;
-  padding: 30px;
+  padding: 20px;
   font-family: arial;
   font-size: 20px;
-  margin-left: 10%;
+  top: 20px;
+  display: flex;
+  background-color: #4e4e4e;
+  border-radius: 10px;
 }
 
 .menu-navegacao a {
   text-decoration: none;
-  margin: 20px;
+  margin-left: 36px;
   color: #fff;
 }
