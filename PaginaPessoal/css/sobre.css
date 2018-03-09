@@ -7,7 +7,7 @@
   min-height: 75vh;
   height: 75vh;
   position: relative;
-  background: #000;
+  background: #146188;
   background-image: url(../img/sobre-principal.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -23,15 +23,14 @@
 }
 
 #galeriaFotos {
-  .coin-slider { overflow: hidden; zoom: 1; position: relative; width:320px; margin: 100px auto; }
-.coin-slider a{ text-decoration: none; outline: none; border: none; }
+  padding-top: 100px;
+}
 
-.cs-buttons { font-size: 0px; padding: 10px; float: left; }
-.cs-buttons a { margin-left: 5px; height: 10px; width: 10px; float: left; border: 1px solid #B8C4CF; color: #B8C4CF; text-indent: -1000px; }
-.cs-active { background-color: #B8C4CF; color: #FFFFFF; }
+.listaFotos {
+  display: flex;
+}
 
-.cs-title { width: 305px; padding: 10px; background-color: #000000; color: #FFFFFF; }
-
-.cs-prev,
-.cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; }
+.listaFotos img {
+  height: 50vh;
+  width: 66vh;
 }

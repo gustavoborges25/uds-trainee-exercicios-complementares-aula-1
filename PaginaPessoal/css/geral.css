@@ -24,4 +24,9 @@
   text-decoration: none;
   margin-left: 36px;
   color: #fff;
+  transition: color 0.5s;
+}
+.menu-navegacao a:hover {
+  color: #72a0b8;
+  text-decoration: underline;
 }

@@ -70,34 +70,39 @@ div {
 }
 
 .icones-sociais{
-    position: fixed;
-    bottom: 0;
-    left: 10%;
+  position: fixed;
+  bottom: 0;
+  left: 10%;
 }
 
 .icones-sociais li {
-    display: inline-block;
+  display: inline-block;
 }
 
 .icones-sociais a {
-    width: 64px;
-    height: 64px;
-    display: block;
-    text-indent: -99999px;
-    margin: 10px;
-    background-size: contain;
-    box-shadow: 0px 0px 15px #fff;
-    margin-bottom: 50px;
+  width: 64px;
+  height: 64px;
+  display: block;
+  text-indent: -99999px;
+  margin: 10px;
+  background-size: contain;
+  box-shadow: 0px 0px 5px #fff;
+  transition: box-shadow 0.5s;
+  margin-bottom: 50px;
+}
+
+.icones-sociais a:hover {
+  box-shadow: 0px 0px 18px #fff;
 }
 
 .facebook {
-    background-image: url("../img/facebook.png");
+  background-image: url("../img/facebook.png");
 }
 
 .github {
-    background-image: url("../img/github.png");
+  background-image: url("../img/github.png");
 }
 
 .linkedin {
-    background-image: url("../img/linkedin.png");
+  background-image: url("../img/linkedin.png");
 }
