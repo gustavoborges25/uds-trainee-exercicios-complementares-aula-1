@@ -1,36 +1,33 @@
 .fotoPrincipal {
-
-  align-items: center;
-  display: flex;
-  top: 50px;
-  justify-content: center;
-  min-height: 75vh;
-  height: 75vh;
-  position: relative;
-  background: #146188;
-  background-image: url(../img/sobre-principal.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  text-align: center;
-  color: #FFF;
+    align-items     : center;
+    display           : flex;
+    top                 : 50px;
+    justify-content: center;
+    min-height     : 75vh;
+    height            : 75vh;
+    position          : relative;
+    text-align        : center;
+    color              : #FFF;
+    background   :  #146188;
+    background-image        : url(../img/sobre-principal.jpg);
+    background-size            : cover;
+    background-attachment: fixed;
+    background-repeat        : no-repeat;
+    background-position      : center;
 }
-
 .fotoPrincipal p {
-  margin-left: 50px;
-  margin-right: 50px;
+    margin-left  : 50px;
+    margin-right: 50px;
 }
 
 #galeriaFotos {
-  padding-top: 100px;
+    padding-top: 100px;
 }
 
 .listaFotos {
-  display: flex;
+    display: flex;
 }
-
 .listaFotos img {
-  height: 50vh;
-  width: 66vh;
+    height: 50vh;
+    width : 66vh;
 }

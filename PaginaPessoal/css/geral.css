@@ -1,32 +1,32 @@
 
 .background {
-  background-color: #146188;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0%;
-  z-index: 0;
+    background-color: #146188;
+    position: absolute;
+    top       : 0;
+    bottom : 0;
+    right     : 0;
+    left       : 0%;
+    z-index: 0;
 }
 
 .menu-navegacao {
-  position: relative;
-  padding: 20px;
-  font-family: arial;
-  font-size: 20px;
-  top: 20px;
-  display: flex;
-  background-color: #4e4e4e;
-  border-radius: 10px;
+    position     : relative;
+    padding    : 20px;
+    font-family: arial;
+    font-size   : 20px;
+    top            : 20px;
+    display      : flex;
+    border-radius      : 10px;
+    background-color: #4e4e4e;
 }
 
 .menu-navegacao a {
-  text-decoration: none;
-  margin-left: 36px;
-  color: #fff;
-  transition: color 0.5s;
+    text-decoration: none;
+    margin-left       : 36px;
+    color                : #fff;
+    transition         : color 0.5s;
 }
 .menu-navegacao a:hover {
-  color: #72a0b8;
-  text-decoration: underline;
+    color                : #72a0b8;
+    text-decoration: underline;
 }
