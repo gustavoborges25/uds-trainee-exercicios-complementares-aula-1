@@ -2,40 +2,39 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton');
 
 div {
-    color    : #fff;
-    position: relative;
+    color : #fff;
+    position : relative;
 }
 
 .foto {
-    position    : absolute;
-    top           : 0;
-    bottom     : 0;
-    right         : 0;
-    left           : 50%;
-    z-index    : 1;
+    position : absolute;
+    top : 0;
+    bottom : 0;
+    right : 0;
+    left : 50%;
+    z-index : 1;
     animation: descerFotoPerfil 1.5s linear;
-    background-size   : auto 100%;
+    background-size : auto 100%;
     background-image: url( "../img/home-perfil.jpg" );
 }
 
 @keyframes descerFotoPerfil {
     from {
         transform: translateY(-100%);
-        opacity    : 0;
+        opacity : 0;
     }
     to {
         transform: translateY( 0% );
-        opacity    : 1;
+        opacity : 1;
     }
 }
 
 .nome {
-    color          : #fff;
-    position     : relative;
+    color : #fff;
     font-family : 'Monoton', cursive;
-    font-size    : 20px;
+    font-size : 20px;
     margin-left: 30px;
-    animation  : nomeanimado 2s linear;
+    animation : nomeanimado 2s linear;
 }
 
 @keyframes nomeanimado {
@@ -48,15 +47,15 @@ div {
 }
 
 #meu-nome {
-    opacity            : 0.4;
-    padding          : 15px;
+    opacity : 0.4;
+    padding : 15px;
     margin-bottom: 0px;
 }
 
 #nome {
-    margin-left      : 40px;
+    margin-left : 40px;
     margin-bottom: 0px;
-    margin-top      : 0px;
+    margin-top : 0px;
 }
 
 #sobrenome {
@@ -65,14 +64,14 @@ div {
 }
 
 .resumo {
-    width         : 40%;
+    width : 40%;
     margin-left: 5%;
 }
 
 .icones-sociais{
     position: fixed;
     bottom : 0;
-    left       : 10%;
+    left : 10%;
 }
 
 .icones-sociais li {
@@ -80,15 +79,15 @@ div {
 }
 
 .icones-sociais a {
-    width                  : 64px;
-    height                : 64px;
-    display               : block;
-    text-indent         : -99999px;
-    margin               : 10px;
+    width : 64px;
+    height : 64px;
+    display : block;
+    text-indent : -99999px;
+    margin : 10px;
     background-size: contain;
-    box-shadow       : 0px 0px 5px #fff;
-    transition            : box-shadow 0.5s;
-    margin-bottom   : 50px;
+    box-shadow : 0px 0px 5px #fff;
+    transition : box-shadow 0.5s;
+    margin-bottom : 50px;
 }
 
 .icones-sociais a:hover {
